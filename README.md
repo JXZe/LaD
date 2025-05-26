@@ -11,9 +11,10 @@ This is a PyTorch implementation for [Personalized Query Auto-Completion for Lon
 
 
   * [Data](#Data)
+  * [Train](#Train)
 
 
-If you use this code in your research, please consider citing:
+Copying the following code to cite:
 
 ```text
 @inproceedings{wang2025lad,
@@ -26,6 +27,8 @@ If you use this code in your research, please consider citing:
 
 Data
 ----------------------
-```sh
-for data example
-```
+We have given 10 anonymized training data samples in `data.txt`. Each sample contains three columns: prefix, query, searched_query.
+
+Train
+----------------------
+Because LaD has been applied to Kuaishou online, the code is company confidential. Therefore, we make the training loss and training pseudocode public in `main.py` to help researchers better understand and reproduce our paper. 
