@@ -15,7 +15,7 @@ def generate_rpo_input(prefix_list, batch_generated_query):
             if score > 0.6:
                 pair_list.append([prefix, query, '[Reject]'])
             else:
-                pair_list.append(['[Reject]', query])
+                pair_list.append([prefix, '[Reject]', query])
 
     data_rpo = format_rpo_input(pair_list)
     return data_rpo
