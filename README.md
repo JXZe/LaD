@@ -7,7 +7,7 @@ Personalized Query Auto-Completion for Long and Short-Term Interests with Adapti
 
 
 
-This is a PyTorch implementation for [Personalized Query Auto-Completion for Long and Short-Term Interests with Adaptive Detoxification Generation, KDD-2025].
+This is a PyTorch implementation for [Personalized Query Auto-Completion for Long and Short-Term Interests with Adaptive Detoxification Generation, KDD-2025](https://arxiv.org/abs/2505.20966).
 
 
   * [Data](#Data)
